@@ -1,4 +1,4 @@
-ond run# A first workflow to play with the editor
+# A first workflow to play with the editor
 name: My First Workflow
 on: 
   push:
