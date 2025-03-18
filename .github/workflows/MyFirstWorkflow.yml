@@ -10,7 +10,7 @@ jobs:
     name: My first job
     runs-on: ubuntu_latest
     steps:
-      - run: echo "Hello World from ${{ github..actor }}."      
+      - run: echo "Hello World from ${{ github.actor }}."      
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - run: tree
